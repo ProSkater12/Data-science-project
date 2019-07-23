@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: "data-science-proj"
+  api_key:
+  secure: "a3297cbc-40eb-4607-bf0f-d2c8b5688087"
