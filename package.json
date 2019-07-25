@@ -1,8 +1,10 @@
 {
   "name": "client",
   "description": "Hello world",
-  "content_security_policy":"default-src *; img-src *; object-src 'self'; script-src 'self' 'unsafe-inline'; frame-scr *;",
-  "permissions": [ "<all_urls>" ],
+  "content_security_policy": "default-src *; img-src *; object-src 'self'; script-src 'self' 'unsafe-inline'; frame-scr *;",
+  "permissions": [
+    "<all_urls>"
+  ],
   "version": "1.0.0",
   "author": "Andrey",
   "license": "MIT",
